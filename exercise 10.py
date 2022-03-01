@@ -3,4 +3,5 @@ def calc_gst(net_price):
     return result
 
 
-print()
+price = int(input("what is the item price?: "))
+print(f"The price with GST is {calc_gst(price)}")
